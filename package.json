@@ -1,6 +1,6 @@
 {
   "name": "generator-joe",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "",
   "files": [
     "generators"
@@ -10,7 +10,7 @@
   ],
   "scripts": {
     "release": "standard-version",
-    "postrelease": "git push && git push --follow-tags origin master"
+    "postrelease": "git push && git push origin --tags"
   },
   "dependencies": {
     "yeoman-generator": "^0.23.0"
