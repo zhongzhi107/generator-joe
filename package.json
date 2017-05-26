@@ -1,0 +1,17 @@
+{
+  "name": "generator-joe",
+  "version": "1.0.0",
+  "description": "",
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "scripts": {
+    "release": "standard-version"
+  },
+  "dependencies": {
+    "yeoman-generator": "^0.23.0"
+  }
+}
