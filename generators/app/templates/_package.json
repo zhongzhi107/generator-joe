@@ -7,8 +7,8 @@
     "build": "babel src -d dist",
     "start": "babel-node src/index.js",
     "lint": "eslint --quiet \"**/*.js\"",
-    "release": "standard-version",
-    "postrelease": "git push && git push --follow-tags origin master"
+    "release": "standard-version --first-release",
+    "postrelease": "git push && git push origin --tags"
   },
   "dependencies": {
     "babel-cli": "^6.24.1",
