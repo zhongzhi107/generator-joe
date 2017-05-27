@@ -1,3 +1,8 @@
 # generator-joe
 
-快速创建新工程的生成器，仅个人使用
+一个快速创建新工程的生成器，创建的工程包括：
+
+- .gitignore
+- .editorconfig
+- .babelrc
+- .eslintrc
