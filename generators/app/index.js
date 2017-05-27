@@ -14,9 +14,6 @@ module.exports = yeoman.Base.extend({
     });
   },
 
-  initializing: function () {
-  },
-
   default: function () {
     if (path.basename(this.destinationPath()) !== this.appname) {
       this.log(
