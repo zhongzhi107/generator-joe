@@ -8,6 +8,8 @@
     "stage-0"
   ],
   "plugins": [
-    "transform-runtime"
+    "transform-runtime",
+    "add-module-exports",
+    "transform-decorators-legacy"
   ]
 }
