@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.1.7"></a>
+## [1.1.7](https://github.com/zhongzhi107/generator-joe/compare/v1.1.6...v1.1.7) (2018-03-07)
+
+
+### Bug Fixes
+
+* 增加babel plugins ([e02ebb5](https://github.com/zhongzhi107/generator-joe/commit/e02ebb5))
+* 增加babel-plugin-transform-runtime，修复target为低版本node时缺乏runtime的错误 ([d3385a8](https://github.com/zhongzhi107/generator-joe/commit/d3385a8))
+
+
+
 <a name="1.1.6"></a>
 ## [1.1.6](https://github.com/zhongzhi107/generator-joe/compare/v1.1.5...v1.1.6) (2017-06-04)
 
