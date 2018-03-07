@@ -9,8 +9,8 @@
   "scripts": {
     "build": "rimraf dist && babel src -d dist",
     "start": "babel-node src/index.js",
-    "lint": "eslint --quiet \"**/*.js\"",
-    "release": "standard-version --first-release",
+    "lint": "eslint --fix --quiet \"**/*.js\"",
+    "release": "standard-version && npm publish",
     "prepublish": "npm run build",
     "postrelease": "git push && git push origin --tags"
   },
