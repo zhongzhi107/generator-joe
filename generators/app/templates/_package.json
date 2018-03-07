@@ -7,7 +7,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "babel src -d dist",
+    "build": "rimraf dist && babel src -d dist",
     "start": "babel-node src/index.js",
     "lint": "eslint --quiet \"**/*.js\"",
     "release": "standard-version --first-release",
@@ -25,7 +25,8 @@
     "babel-register": "^6.24.1",
     "eslint": "^3.19.0",
     "eslint-config-qunar": "^1.1.4",
-    "eslint-plugin-import": "^2.2.0"
+    "eslint-plugin-import": "^2.2.0",
+    "rimraf": "^2.6.2"
   },
   "peerDependencies": {
     "standard-version": "*"
